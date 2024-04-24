@@ -15,9 +15,9 @@ To run simulations using the package clone this project typing in a terminal
 ```
 git clone https://github.com/alfredos84/cuSHG.git
 ```
-Once the project was cloned, the user will find a parent folder `cuSHG` that contains: 
-- `cuSHG/src` which has the main file `cuSHG.cu` and the bash file `cuSHG.sh` used to compile and execute the package by passing several simulations parameters, and
-- `cuSHG/src/headers` which has the headers files needed to execute the package.
+Once the project was cloned, the user will find a parent folder `SHG` that contains: 
+- `SHG/src` which has the main file `SHG.cpp` and the bash file `SHG.sh` used to compile and execute the package by passing several simulations parameters, and
+- `SHG/src/headers` which has the headers files needed to execute the package.
 
 Note: the cloned repository is usually created at `home` folder in your Linux System.
 
@@ -55,7 +55,7 @@ Finally, the execution is done using the command line in the `SHG.sh` file is
 ```
 ./SHG <ARGUMENTS_TO_PASS>
 ```
-where `$ARGx` and others are variables externaly passed to the main file `SHG.cu`.
+where `$ARGx` and others are variables externaly passed to the main file `SHG.cpp`.
 It was written in this way to make easier performing simulations massively.
 
 ### Outputs
