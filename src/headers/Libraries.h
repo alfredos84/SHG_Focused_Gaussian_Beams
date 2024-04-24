@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+#include <random>
+#include <fstream>
+#include <iomanip>
+#include <typeinfo>
+#include <cstdio>
+#include <cstdlib>
+#include <cmath>
+#include <complex>
+#include <chrono>
+#include <stdio.h>
+#include <sys/time.h>
+#include <fftw3.h>
